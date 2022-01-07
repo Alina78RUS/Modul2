@@ -1,0 +1,9 @@
+'''Modul 2''' 
+'''Создание пароля с применением верхнего и нижнего регистра
+и не менее 8 символов'''
+print ("Придумайте пароль состоящий из маленьких и больших букв и не менее 8 символов")
+password=input("Введите ваш пароль " )
+#print (password)
+while len(password)<8 or password.isupper()==True or password.islower()==True:
+    password=input("Введите корректный пароль ")
+print ("Отличный пароль "+password )
